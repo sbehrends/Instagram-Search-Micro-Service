@@ -5,15 +5,15 @@ var path = require('path'),
 
 const config = {
   development: {
-    port: 8000 || process.env.PORT,
+    port: process.env.PORT || 8000,
     instagram: {
-      accessToken: '' || process.env.INSTA_TOKEN
+      accessToken: process.env.INSTA_TOKEN || ''
     }
   },
   production: {
-    port: 8000 || process.env.PORT,
+    port: process.env.PORT || 8000,
     instagram: {
-      accessToken: '' || process.env.INSTA_TOKEN
+      accessToken: process.env.INSTA_TOKEN || ''
     }
   }
 };
