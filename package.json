@@ -1,0 +1,15 @@
+{
+  "name": "insta-serve",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "Sergio Behrends",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^14.2.0",
+    "instagram-node": "^0.5.8"
+  }
+}
